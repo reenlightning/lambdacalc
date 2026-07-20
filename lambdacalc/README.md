@@ -1,5 +1,7 @@
 <h1 align="center">lambdacalc</h1>
 
+<p align="center"><a href="https://github.com/reenlightning/lambdacalc/blob/master/README.md">简体中文</a> | <a href="https://github.com/reenlightning/lambdacalc/blob/master/docs/README_en.md">English</a></p>
+
 一个将 λ 演算直接嵌入 Python 的轻量级 DSL，提供面向对象的 API 来构造、归约和求值 λ 表达式。支持自由变量赋值、α 转换（自动捕获避免）、β 归约、内置算术运算以及惰性求值。
 <hr>
 
