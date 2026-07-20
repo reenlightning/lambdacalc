@@ -1,40 +1,32 @@
-# Lambda Calculus DSL for Python
+<h1 align="center">lambdacalc</h1>
 
 一个将 λ 演算直接嵌入 Python 的轻量级 DSL，提供面向对象的 API 来构造、归约和求值 λ 表达式。支持自由变量赋值、α 转换（自动捕获避免）、β 归约、内置算术运算以及惰性求值。
+<hr>
 
-## 项目结构
+## 快速开始
 
-```
-lambdacalc/
-├── __init__.py       # 导出所有公开符号
-├── _core.py          # 表达式节点、替换、归约引擎
-├── _builtins.py      # 加减乘除，支持常量折叠
-└── _utils.py         # 黄色警告、变量名生成
-```
-
-## 安装要求
+### 安装
+#### 要求
 
 - Python 3.7+
-- 依赖 [`colorama`](https://pypi.org/project/colorama/)（用于跨平台彩色警告）
+- 依赖 [`colorama`](https://pypi.org/project/colorama/)
 
-### 通过 pip 安装
+#### 通过 pip 安装
 
 ```bash
 pip install lambdacalc
 ```
 
-### 从源码安装
-
+#### 从源码安装
+请事先确认您已安装[`git`](https://git-scm.com/install/windows)，并确定已经将其正确地添加至系统PATH环境变量中。
 ```bash
-git clone <仓库地址>
+git clone https://github.com/reenlightning/lambdacalc.git
 cd lambdacalc
 pip install .
 ```
-
-## 快速开始
-
+### 示例代码
 ```python
-from lambdacalc import Variable, lam, let_lam, Add, Const, Apply
+from lambdacalc import *
 
 # 1. 创建绑定变量
 x = Variable('x', 'bound')
@@ -53,6 +45,19 @@ app = expr.beta(f)          # (λx.λy.(x y)+1) (λa.a+1)
 result = app.calculate([])  # 正常序归约
 print(result.building())    # λy. y + 2 （范式依然是抽象）
 ```
+<hr>
+
+## 项目结构
+
+```
+lambdacalc/
+├── __init__.py
+├── _core.py
+├── _builtins.py
+└── _utils.py
+```
+
+<hr>
 
 ## 核心 API
 
@@ -91,6 +96,8 @@ print(result.building())    # λy. y + 2 （范式依然是抽象）
 - `Add(left, right)`、`Sub(left, right)`、`Mult(left, right)`、`Div(left, right)`  
   二元算术节点。当 `calculate` 归约到两侧都是 `Const` 时会自动折叠为数字常量。
 
+<hr>
+
 ## 行为细节
 
 ### 归约策略
@@ -113,6 +120,8 @@ app = expr.beta(y)
 
 ### 不可变性
 所有表达式对象是不可变的。所有归约、替换、α 转换等方法均返回**新的表达式对象**，原始对象保持不变。
+
+<hr>
 
 ## 更多示例
 
@@ -144,6 +153,8 @@ print(step2.calculate([]))     # 7
 
 
 发布到 PyPI 或私有索引请参考 `pyproject.toml` 中的元数据，使用 `twine` 上传。
+
+<hr>
 
 ## 许可证
 

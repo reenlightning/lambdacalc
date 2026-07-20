@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edb2f9d8-22c7-4b3f-bb26-83bc5df38876" name="更改" comment="创建项目" />
+    <list default="true" id="edb2f9d8-22c7-4b3f-bb26-83bc5df38876" name="更改" comment="创建项目">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/lambdacalc/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lambdacalc/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/lambdacalc/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lambdacalc/lambdacalc/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/lambdacalc/_builtins.py" beforeDir="false" afterPath="$PROJECT_DIR$/lambdacalc/lambdacalc/_builtins.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/lambdacalc/_core.py" beforeDir="false" afterPath="$PROJECT_DIR$/lambdacalc/lambdacalc/_core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/lambdacalc/_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/lambdacalc/lambdacalc/_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/lambdacalc/_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/lambdacalc/lambdacalc/_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/lambdacalc/pyproject.toml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,12 +42,12 @@
     &quot;assignee&quot;: &quot;reenlightning&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/reenlightning/lambdacalc.git&quot;,
-    &quot;accountId&quot;: &quot;e91f6c60-d0aa-4b99-a47e-8e0c33625876&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/reenlightning/lambdacalc.git",
+    "accountId": "bcd915fd-ef22-425c-8316-5765cd10abef"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4,
   &quot;fromUser&quot;: false
