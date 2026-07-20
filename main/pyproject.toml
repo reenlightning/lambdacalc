@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lambdacalc"
+version = "0.1.1"
+description = "Lambda Calculus DSL for Python"
+authors = [{name = "reenlightning", email = "1823746302@qq.com"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "colorama",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["lambdacalc*"]
