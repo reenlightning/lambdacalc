@@ -30,7 +30,7 @@ jobs:
       - name: Build release distributions
         run: |
           # NOTE: put your own distribution build steps here.
-          cd main/lambdacalc
+          cd lambdacalc
           python -m pip install build
           python -m build
 
