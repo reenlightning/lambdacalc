@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "lambdacalc"
-version = "0.1.1"
+version = "0.1.2"
 description = "Lambda Calculus DSL for Python"
 authors = [{name = "reenlightning", email = "1823746302@qq.com"}]
 license = {text = "MIT"}
