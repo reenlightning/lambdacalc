@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edb2f9d8-22c7-4b3f-bb26-83bc5df38876" name="更改" comment="增加workflow并配置action">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/publish.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/publish.yml" afterDir="false" />
+    <list default="true" id="edb2f9d8-22c7-4b3f-bb26-83bc5df38876" name="更改" comment="增加workflow并配置action*n">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/lambdacalc/__init__.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +35,12 @@
     &quot;assignee&quot;: &quot;reenlightning&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/reenlightning/lambdacalc.git&quot;,
-    &quot;accountId&quot;: &quot;bcd915fd-ef22-425c-8316-5765cd10abef&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/reenlightning/lambdacalc.git",
+    "accountId": "e91f6c60-d0aa-4b99-a47e-8e0c33625876"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4,
   &quot;fromUser&quot;: false
@@ -167,7 +168,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-50341a9f1f9c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.26222.68" />
+        <option value="bundled-python-sdk-245168a56dbd-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.25134.203" />
       </set>
     </attachedChunks>
   </component>
@@ -267,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784609628661</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="增加workflow并配置action*n">
+      <option name="closed" value="true" />
+      <created>1784609963066</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1784609963066</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +297,8 @@
     <MESSAGE value="创建项目" />
     <MESSAGE value="更改README.md" />
     <MESSAGE value="增加workflow并配置action" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加workflow并配置action" />
+    <MESSAGE value="增加workflow并配置action*n" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加workflow并配置action*n" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
