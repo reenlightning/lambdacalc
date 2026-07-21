@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edb2f9d8-22c7-4b3f-bb26-83bc5df38876" name="更改" comment="更改README.md">
-      <change afterPath="$PROJECT_DIR$/main/lambdacalc/__init__.py" afterDir="false" />
+    <list default="true" id="edb2f9d8-22c7-4b3f-bb26-83bc5df38876" name="更改" comment="增加workflow并配置action">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambdacalc/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/main/lambdacalc/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambdacalc/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/main/lambdacalc/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambdacalc/lambdacalc/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/lambdacalc/lambdacalc/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambdacalc/lambdacalc/_builtins.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/lambdacalc/lambdacalc/_builtins.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambdacalc/lambdacalc/_core.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/lambdacalc/lambdacalc/_core.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambdacalc/lambdacalc/_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/lambdacalc/lambdacalc/_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambdacalc/lambdacalc/_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/lambdacalc/lambdacalc/_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambdacalc/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/main/lambdacalc/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +79,7 @@
       <recent name="D:\Code\lambdacalc\main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\lambdacalc\.github\workflow" />
       <recent name="D:\Code\lambdacalc\main" />
     </key>
   </component>
@@ -219,7 +211,23 @@
       <option name="project" value="LOCAL" />
       <updated>1784549341677</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="更改README.md">
+      <option name="closed" value="true" />
+      <created>1784604763721</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1784604763721</updated>
+    </task>
+    <task id="LOCAL-00006" summary="增加workflow并配置action">
+      <option name="closed" value="true" />
+      <created>1784604915216</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1784604915216</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +247,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="创建项目" />
     <MESSAGE value="更改README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="更改README.md" />
+    <MESSAGE value="增加workflow并配置action" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加workflow并配置action" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
